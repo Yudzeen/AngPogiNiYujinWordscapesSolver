@@ -84,6 +84,7 @@ public class AnswersActivity extends AppCompatActivity {
                 for (int j = 0; j < possibleWordArray.length; j++) {
                     if (!contains(input, possibleWordArray[j], visited)) {
                         valid = false;
+                        break;
                     }
                 }
                 if (valid) {
