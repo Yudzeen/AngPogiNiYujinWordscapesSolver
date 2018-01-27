@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Ang Pogi Ni Yujin Wordscapes Solver</string>
+    <string name="enter_letters_here">Enter letters here</string>
+    <string name="solve">Solve!</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="title_activity_answers">AnswersActivity</string>
+</resources>
