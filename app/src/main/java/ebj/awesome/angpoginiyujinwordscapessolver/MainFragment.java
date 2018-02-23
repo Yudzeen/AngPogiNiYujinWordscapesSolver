@@ -4,7 +4,6 @@ package ebj.awesome.angpoginiyujinwordscapessolver;
 import android.content.Intent;
 import android.os.Bundle;
 import android.support.v4.app.Fragment;
-import android.util.Log;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -48,7 +47,7 @@ public class MainFragment extends Fragment {
 
     @OnClick(R.id.btn_solve)
     public void onSolveButtonClicked() {
-        Intent intent = new Intent(getActivity(), AnswersActivity.class);
+        Intent intent = new Intent(getActivity(), AnswerActivity.class);
         intent.putExtra(Constants.INPUT_KEY, inputText.getText().toString());
         startActivity(intent);
     }
